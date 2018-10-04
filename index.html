@@ -16,7 +16,7 @@
         crossorigin='anonymous'>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- jQuery -->
     <script src='https://code.jquery.com/jquery-3.3.1.js' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60='
@@ -34,13 +34,13 @@
     <div class="container">
         <!-- Title -->
         <div id="title" class="card mt-4">
-            <div class="card-header py-4 text-center text-dark bg-brown">
-                <h3>Train Schedule Predictions</h3>
+            <div class="card-header py-4 text-center" id="header">
+                <h3>Train Schedule</h3>
             </div>
         </div>
         <!-- Search Params -->
         <div class="card mt-4">
-            <div class="card-header bg-primary py-3 text-white">
+            <div class="card-header bg-dark py-3 text-white">
                 <h5>Add a Train</h5>
             </div>
             <div class="card-body">
@@ -63,7 +63,7 @@
 
                 <!-- Buttons -->
                 <button id="addTrain" class="btn btn-success"><i class="fas fa-train"></i> Add New train</button>
-                <button id="search" class="btn"><i class="fas fa-trash" aria-hidden="true"></i> Clear Results</button>
+                <!-- <button id="search" class="btn"><i class="fas fa-trash" aria-hidden="true"></i> Clear Results</button> -->
             </div>
         </div>
 
@@ -97,7 +97,7 @@
         crossorigin='anonymous'></script>
 
     <!-- app.js -->
-    <script src="train.js"></script>
+    <script src="assets/js/train.js"></script>
 </body>
 
 </html>
