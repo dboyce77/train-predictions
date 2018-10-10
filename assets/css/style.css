@@ -1,0 +1,11 @@
+.table {
+    border: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+#title {
+    background-color: brown;
+}
+#title h3 {
+    color: white;
+}
